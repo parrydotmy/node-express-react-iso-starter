@@ -1,0 +1,50 @@
+{
+  "name": "node-express-react-iso-starter",
+  "version": "1.0.0",
+  "description": "A starter pack for a node/express web app using isomorphic react",
+  "main": "run-server.js",
+  "scripts": {
+    "postinstall": "NODE_ENV=production gulp",
+    "start": "NODE_ENV=production node run-server.js"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "compression": "^1.5.2",
+    "ejs": "^2.3.4",
+    "express": "~4.9.x",
+    "node-jsx": "^0.13.3",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parrydotmy/node-express-react-iso-starter.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "react"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parrydotmy/node-express-react-iso-starter/issues"
+  },
+  "homepage": "https://github.com/parrydotmy/node-express-react-iso-starter#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-watch": "^4.3.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  },
+  "author": "Michael Parry"
+}
