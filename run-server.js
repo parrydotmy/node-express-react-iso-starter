@@ -1,6 +1,6 @@
 // Allow JSX syntax
-require("node-jsx").install();
+require("node-jsx").install()
 // Allow ES6 syntax
-require("babel/register");
+require("babel/register")
 // Run server
-require("./src/server").run();
+require("./src/server").run()

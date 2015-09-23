@@ -1,8 +1,8 @@
-import React from 'react';
-import {RouteHandler} from 'react-router';
-import Nav from './nav';
+import React from 'react'
+import {RouteHandler} from 'react-router'
+import Nav from './nav'
 
-export default class App extends React.Component {
+export default class extends React.Component {
   render() {
     return (
       <div className="container">

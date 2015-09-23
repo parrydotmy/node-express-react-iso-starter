@@ -1,7 +1,7 @@
-import React from 'react';
-import {Link} from 'react-router';
+import React from 'react'
+import {Link} from 'react-router'
 
-export default class Intro extends React.Component {
+export default class extends React.Component {
   render() {
     return (
       <ul>
